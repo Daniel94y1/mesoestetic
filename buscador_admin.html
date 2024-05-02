@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Mejoras</title>
+    <link rel="stylesheet" href="css/buscador_admin.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="left-section">
+                <!-- Aquí va el enlace "Volver" -->
+            </div>
+            <div class="right-section">
+                
+                <!-- Aquí va la imagen de perfil -->
+                <img src="tu_imagen.png" alt="Imagen de perfil">
+            </div>
+        </div>
+    </header>
+    
+    <section class="search-section">
+        <p class="additional-text">Administrador</p>
+        
+        <a href="index.html" class="back-btn">Volver</a>
+        <div class="search-box">
+            <h2>Buscar Mejoras</h2>
+            <form action="#" method="get">
+                <div class="input-group">
+                    <label for="estado">Estado:</label>
+                    <select name="estado" id="estado">
+                        <option value="creado">Creado</option>
+                        <option value="en-progreso">En progreso</option>
+                        <option value="completado">Completado</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario">
+                </div>
+                <div class="input-group">
+                    <label for="descripcion">Descripción:</label>
+                    <input type="text" id="descripcion" name="descripcion">
+                </div>
+                <div class="input-group checkbox-group">
+                    <input type="checkbox" id="mejoras" name="mejoras">
+                    <label for="mejoras">Mis Mejoras</label>
+                </div>
+                <button type="submit">Buscar</button>
+            </form>
+            <div class="results">
+                <h2>Resultados de la Búsqueda</h2>
+                <div class="result-table">
+                    <div class="result-row header">
+                        <span class="user">Usuario</span>
+                        <span class="description">Descripción</span>
+                        <span class="status">Estado</span>
+                    </div>
+                    <!-- Aquí se mostrarán los resultados de la búsqueda -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <h2>Únete a Mesoestetic Beauty Club</h2>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #add8e6;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personal-area {
+    font-size: 18px;
+}
+
+.login-section {
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login-box {
+    height: 25vh;
+    margin-top: 15vh;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #2e8b57; /* Border azul verdoso */
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-box button,
+.login-box a {
+    width: 48%; /* Ancho */
+    padding: 10px;
+    background-color: #d3d3d3; /* Color gris claro */
+    color: #000000;
+    border: 1px solid #a9a9a9; /* Borde gris más claro */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Cambio para mostrar los botones en línea */
+    box-sizing: border-box; /* Asegura que el ancho incluya padding y border */
+}
+
+.login-box button:hover,
+.login-box a:hover {
+    background-color: #b0b0b0; /* Cambia de color al pasar el ratón */
+}
+
+.login-box button {
+    margin-right: 5px; /* Espacio entre botones */
+}
+
+.footer-section {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-section h2 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.login-box button {
+    font-weight: bold; /* Hacer que el texto esté en negrita */
+}
+
+.login-box a {
+    text-decoration: none;
+    font-weight: bold;  /* Quitar el subrayado */
+}
+
+
+
+
+
+
+
